@@ -18,15 +18,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/popjane/free_chatgpt_api#项目介绍">快速开始</a>
+  <a href="https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D">快速开始</a>
   ·
-  <a href="https://github.com/popjane/free_chatgpt_api#免费使用">使用方法</a>
+  <a href="https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8">使用方法</a>
   ·
   <a href="https://free.gpt.ge/github" target="_blank">立即领取免费KEY</a>
   ·
-  <a href="https://github.com/popjane/free_chatgpt_api#付费API">付费API</a>
+  <a href="https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E4%BB%98%E8%B4%B9api">付费API</a>
   ·
-  <a href="https://github.com/popjane/free_chatgpt_api#常用应用支持">应用支持</a>
+  <a href="https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81">应用支持</a>
 </p>
 
 > [!NOTE]
@@ -58,7 +58,7 @@
 
 1. 首先 [🚀 **前往领取免费APIKEY**](https://free.gpt.ge/github)、领取后请妥善保管你的APIKEY。
 2. 复制免费API地址：`https://free.gpt.ge`（无需代理，直接可用）。
-3. 在支持的应用中绑定你的APIKEY+API地址(`BASE_URL`)，即可开始使用（可查看[应用支持](https://github.com/popjane/free_chatgpt_api#常用应用支持)列表）。
+3. 在支持的应用中绑定你的APIKEY+API地址(`BASE_URL`)，即可开始使用（可查看[应用支持](https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81)列表）。
 
 根据用户量的增加，我们会相应提升服务质量，提供更优质的免费服务。在使用上遇到问题，可以在[issues](https://github.com/popjane/free_chatgpt_api/issues)中提出，我们会尽快协助解决。
 
