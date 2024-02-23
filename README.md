@@ -12,9 +12,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/FREE-100%25-green_blue" alt="free">
-  <a href="https://github.com/popjane/free_chatgpt_api/releases/latest">
-    <img src="https://img.shields.io/badge/release-beta0.1-green_blue" alt="release">
-  </a>
 </p>
 
 <p align="center">
