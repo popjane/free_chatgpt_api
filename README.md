@@ -140,7 +140,7 @@
 
 待更新...
 
-### OpenAi官方库支持
+### OpenAi官方python库
 
 > 在openai官方库开发时传入baseurl和apukey即可。
 >
@@ -149,12 +149,39 @@
 以官网的`python`库为例：注意，需要传入/v1后缀。
 
 ```python
+import os
 import openai
+
+openai.api_key = "您的apikey"
 openai.api_base = "https://free.gpt.ge/v1"
+
+chat_completion = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[{ "role": "user", "content": "Hello world" }]
+)
+
+print(chat_completion.choices[0].message.content)
+
+# 正常会输出结果：Hello there! How can I assist you today ?
 ```
 
-或者通过环境变量设置，具体参考[官方库](https://github.com/openai/openai-python)文档介绍
+### OpenAi官方node库
 
-```python
-OPENAI_API_BASE=https://free.gpt.ge/v1
+> [openai-node](https://github.com/openai/openai-node)
+
+```js
+const { Configuration, OpenAIApi } = require("openai");
+
+const configuration = new Configuration({
+  apiKey: "您的apikey",
+  basePath: "https://free.gpt.ge/v1"
+});
+const openai = new OpenAIApi(configuration);
+
+const chatCompletion = await openai.createChatCompletion({
+  model: "gpt-3.5-turbo",
+  messages: [{role: "user", content: "Hello world"}],
+});
+
+console.log(chatCompletion.data.choices[0].message.content);
 ```
