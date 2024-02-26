@@ -78,6 +78,81 @@
 
 ## 常用应用支持
 
+> [!NOTE]
 > 理论上支持所有可以自定义API地址的GPT应用，以下是一些常用的应用。
 >
-> 正在更新中...
+> 所有应用的API地址（BaseUrl）为`https://free.gpt.ge`
+
+### 一、ChatGPT.好友插件
+
+> 该插件为utools的一个插件，支持自定义模型、一键呼出，即用既走，超级面板，在pc任意位置均可快速发送消息。支持Ai聊天、绘画、语音对话、多api管理、多key绑定、角色独立聊天记录、一键查余额。桌面端的神器，但不支持移动端。
+>
+> 是一个功能非常全面的ai聊天应用插件。
+> 
+> [ **应用安装教程**](https://help.chats.li/usage)
+
+绑定教程截图：
+
+![ChatGPT.好友](./images/free_utools.png)
+
+绑定成功后，鼠标右键ai列表，选择需要的模型即可。
+
+![ChatGPT.好友](./images/free_utools1.png)
+
+### 二、开源应用Chatgpt-next-web（ChatGPT-Midjourney）
+
+> [开源Chatgpt-next-web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) 这是一个开源web聊天工具，只支持聊天。
+> 
+> [开源ChatGPT-Midjourney](https://github.com/Licoy/ChatGPT-Midjourney) 二开版本，支持Midjourney对话的开源应用。
+
+绑定教程截图：
+
+点击设置图标。找到自定义接口设置，配置如下：
+![Chatgpt-next-web](./images/free_chatgpt-next-web.png)
+
+### 三、Lobe-chat
+
+> [Lobe-chat](https://github.com/lobehub/lobe-chat) 是一个开源的聊天应用，支持聊天、绘画、语音对话等。
+
+绑定教程截图：
+
+![lobe-chat](./images/free_lobe-chat.png)
+
+### 四、BotGem
+
+> [BotGem](https://botgem.com/) 非开源工具，支持PC和移动端，功能单一，只支持聊天，但多端适配。
+
+绑定方法类似上方截图教程，填写免费API地址`https://free.gpt.ge`+`apikey` 即可。
+
+### 五、ChatBox
+
+> [ChatBox](https://github.com/Bin-Huang/chatbox) 支持桌面端APP版和web版，点开setting按钮配置即可。
+
+绑定方法类似上方截图教程，填写免费API地址`https://free.gpt.ge`+`apikey` 即可。
+
+### 六、FastGPT
+
+> [FastGPT](https://github.com/labring/FastGPT) 支持知识库的聊天应用。
+
+部署时参数host填写`https://free.gpt.ge` 可以传入我们的`apikey` 即可
+
+### 更多应用支持
+
+待更新...
+
+### OpenAi官方库支持
+
+> 在openai官方库开发时传入baseurl和apukey即可。
+
+以官网的`python`库为例：注意，需要传入/v1后缀。
+
+```python
+import openai
+openai.api_base = "https://free.gpt.ge/v1"
+```
+
+或者通过环境变量设置，具体参考官网库文档介绍
+
+```python
+OPENAI_API_BASE=https://free.gpt.ge/v1
+```
