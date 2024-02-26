@@ -143,6 +143,8 @@
 ### OpenAi官方库支持
 
 > 在openai官方库开发时传入baseurl和apukey即可。
+>
+> [openai-python](https://github.com/openai/openai-python)
 
 以官网的`python`库为例：注意，需要传入/v1后缀。
 
@@ -151,7 +153,7 @@ import openai
 openai.api_base = "https://free.gpt.ge/v1"
 ```
 
-或者通过环境变量设置，具体参考官网库文档介绍
+或者通过环境变量设置，具体参考[官方库](https://github.com/openai/openai-python)文档介绍
 
 ```python
 OPENAI_API_BASE=https://free.gpt.ge/v1
