@@ -142,7 +142,7 @@
 
 ### OpenAi官方python库
 
-> 在openai官方库开发时传入baseurl和apukey即可。
+> 在openai官方库开发时传入baseurl和apikey即可。
 >
 > [openai-python](https://github.com/openai/openai-python)
 
@@ -168,6 +168,8 @@ print(chat_completion.choices[0].message.content)
 ### OpenAi官方node库
 
 > [openai-node](https://github.com/openai/openai-node)
+
+以官网的`node`库为例：注意，需要传入/v1后缀。
 
 ```js
 const { Configuration, OpenAIApi } = require("openai");
