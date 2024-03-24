@@ -146,21 +146,29 @@
 >
 > [openai-python](https://github.com/openai/openai-python)
 
-以官网的`python`库为例：注意，需要传入/v1后缀。
+以官网的`python`库为例：注意，需要传入`/v1/`后缀。
 
 ```python
 import os
 import openai
 
-openai.api_key = "您的apikey"
-openai.api_base = "https://free.gpt.ge/v1"
+# optional; defaults to `os.environ['OPENAI_API_KEY']`
+openai.api_key = "您的APIKEY"
 
-chat_completion = openai.ChatCompletion.create(
+# all client options can be configured just like the `OpenAI` instantiation counterpart
+openai.base_url = "https://free.gpt.ge/v1/"
+openai.default_headers = {"x-foo": "true"}
+
+completion = openai.chat.completions.create(
     model="gpt-3.5-turbo",
-    messages=[{ "role": "user", "content": "Hello world" }]
+    messages=[
+        {
+            "role": "user",
+            "content": "Hello world!",
+        },
+    ],
 )
-
-print(chat_completion.choices[0].message.content)
+print(completion.choices[0].message.content)
 
 # 正常会输出结果：Hello there! How can I assist you today ?
 ```
