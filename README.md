@@ -89,7 +89,7 @@
 >
 > 是一个功能非常全面的ai聊天应用插件。
 > 
-> [ **应用安装教程**](https://help.chats.li/usage)
+> [ **查看应用**](https://u.tools/plugins/detail/ChatGPT.%E5%A5%BD%E5%8F%8B/)
 
 绑定教程截图：
 
