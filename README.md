@@ -43,7 +43,7 @@
    + [x] net-gpt-3.5-turbo (可联网搜索模型-稳定性稍差)
    + [x] whisper-1
    + [x] dall-e-2
-   + [x] text-开头系列模型，例如：text-davinci
+   + [ ] text-开头系列模型，例如：text-davinci（免费版已取消text系列模型）
    + [ ] gpt-4全系列（只定期限量开放）
    + [ ] 付费版API支持OpenAI所有模型，包括（联网、绘画、聊天、训练、图片分析、GPTs等）
 2. 标准的OpenAI接口请求格式。
