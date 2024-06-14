@@ -146,7 +146,7 @@
 >
 > [openai-python](https://github.com/openai/openai-python)
 
-以官网的`python`库为例：注意，需要传入`/v1/`后缀。并且openai库需升级到最新版，老版本传出格式不一样，具体参考官方py库文档。
+以官网的`python`库为例：注意，需要传入`/v1/`后缀。并且openai库需升级到最新版，老版本传参格式不一样，具体参考官方py库文档。
 
 ```python
 import os
