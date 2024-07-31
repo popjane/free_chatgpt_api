@@ -21,7 +21,7 @@
   ·
   <a href="https://free.gpt.ge/github" target="_blank">立即领取免费KEY</a>
   ·
-  <a href="https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E4%BB%98%E8%B4%B9api">付费API</a>
+  <a href="https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E4%BB%98%E8%B4%B9api">付费极速API</a>
   ·
   <a href="https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81">应用支持</a>
 </p>
