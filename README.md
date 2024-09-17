@@ -196,3 +196,5 @@ const chatCompletion = await openai.createChatCompletion({
 
 console.log(chatCompletion.data.choices[0].message.content);
 ```
+
+![](https://api.star-history.com/svg?repos=popjane/free_chatgpt_api)
