@@ -56,8 +56,8 @@
 
 ## 免费使用
 
-1. 首先 [🚀 **前往领取免费APIKEY**](https://free.gpt.ge/github)、领取后请妥善保管你的APIKEY。
-2. 复制免费API地址：`https://free.gpt.ge`（无需代理，直接可用）。
+1. 首先 [🚀 **前往领取免费APIKEY**](https://free.v36.cm/github)、领取后请妥善保管你的APIKEY。
+2. 复制免费API地址：`https://free.v36.cm`（无需代理，直接可用）。
 3. 在支持的应用中绑定你的APIKEY+API地址(`BASE_URL`)，即可开始使用（可查看[应用支持](https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81)列表）。
 
 根据用户量的增加，我们会相应提升服务质量，提供更优质的免费服务。在使用上遇到问题，可以在[issues](https://github.com/popjane/free_chatgpt_api/issues)中提出，我们会尽快协助解决。
@@ -67,7 +67,7 @@
 > [!NOTE]
 > 为了确保项目的可持续发展，我们意识到仅依赖公益性质的免费Key是难以长期维持的。注意：免费API不提供任何技术支持，如需稳定高并发的API请求请支持付费API。我们诚挚希望大家能够理解并支持这一决策。
 > 
-> [🚀 **前往购买直连付费API**](https://v3.cm) 
+> [🚀 **前往购买纯官转直连付费API**](https://api.v36.cm) 
 > 
 > 付费APIKEY与免费APIKEY不通用，购买后需按卡密详情方法重新生成KEY使用。
 
@@ -85,7 +85,8 @@
 > [!NOTE]
 > 理论上支持所有可以自定义API地址的GPT应用，以下是一些常用的应用。
 >
-> 所有应用的API地址（BaseUrl）为`https://free.gpt.ge`
+> 所有应用的API地址（BaseUrl）为`https://free.v36.cm`
+> 教程图片中的api地址前缀请更换为`https://free.v36.cm`
 
 ### 一、ChatGPT.好友插件
 
@@ -126,19 +127,19 @@
 
 > [BotGem](https://botgem.com/) 非开源工具，支持PC和移动端，功能单一，只支持聊天，但多端适配。
 
-绑定方法类似上方截图教程，填写免费API地址`https://free.gpt.ge`+`apikey` 即可。
+绑定方法类似上方截图教程，填写免费API地址`https://free.v36.cm`+`apikey` 即可。
 
 ### 五、ChatBox
 
 > [ChatBox](https://github.com/Bin-Huang/chatbox) 支持桌面端APP版和web版，点开setting按钮配置即可。
 
-绑定方法类似上方截图教程，填写免费API地址`https://free.gpt.ge`+`apikey` 即可。
+绑定方法类似上方截图教程，填写免费API地址`https://free.v36.cm`+`apikey` 即可。
 
 ### 六、FastGPT
 
 > [FastGPT](https://github.com/labring/FastGPT) 支持知识库的聊天应用。
 
-部署时参数host填写`https://free.gpt.ge` 可以传入我们的`apikey` 即可
+部署时参数host填写`https://free.v36.cm` 可以传入我们的`apikey` 即可
 
 ### 更多应用支持
 
@@ -160,7 +161,7 @@ import openai
 openai.api_key = "您的APIKEY"
 
 # all client options can be configured just like the `OpenAI` instantiation counterpart
-openai.base_url = "https://free.gpt.ge/v1/"
+openai.base_url = "https://free.v36.cm/v1/"
 openai.default_headers = {"x-foo": "true"}
 
 completion = openai.chat.completions.create(
@@ -188,7 +189,7 @@ const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
   apiKey: "您的apikey",
-  basePath: "https://free.gpt.ge/v1"
+  basePath: "https://free.v36.cm/v1"
 });
 const openai = new OpenAIApi(configuration);
 
