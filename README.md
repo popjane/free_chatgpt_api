@@ -207,4 +207,8 @@ const chatCompletion = await openai.createChatCompletion({
 console.log(chatCompletion.data.choices[0].message.content);
 ```
 
+## 关联项目
+
+[OpenAI Plus充值](https://github.com/popjane/openai-chatgpt-plus)
+
 ![](https://api.star-history.com/svg?repos=popjane/free_chatgpt_api)
