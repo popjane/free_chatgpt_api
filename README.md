@@ -11,6 +11,11 @@
 </div>
 
 <p align="center">
+  <strong>中文</strong> | 
+  <a href="./README.en.md">English</a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/FREE-100%25-green_blue" alt="free">
 </p>
 
